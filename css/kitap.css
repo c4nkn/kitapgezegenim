@@ -1,0 +1,110 @@
+.contentBook {
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.bookCoverBg {
+    background-color: #eeeeee;
+    padding: 2%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 2rem;
+    max-height: 435px;
+}
+
+.bookCoverFrontBack {
+    width: 250px;
+    height: 400px;
+    border: 0;
+}
+
+.bookCoverFrontBack:hover {
+    cursor: pointer;
+}
+
+.tutunamayanlar {
+    background: url("../img/tutunamayanlar-1.jpg") no-repeat;
+}
+
+.tutunamayanlar:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/tutunamayanlar-2.jpg");
+}
+
+.kurkmantolu {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/kurk-mantolu-madonna-1.jpg");
+}
+
+.kurkmantolu:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/kurk-mantolu-madonna-2.jpg");
+}
+
+.sayitut {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/aklindan-bir-sayi-tut-1.jpg");
+}
+
+.sayitut:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/aklindan-bir-sayi-tut-2.jpg");
+}
+
+.sokrates {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/sokratesin-savunmasi-1.jpg");
+}
+
+.sokrates:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/sokratesin-savunmasi-2.jpg");
+}
+
+.saatler, .satranc, .galaksirehberi, .yabanci {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.bookName {
+    font-family: 'Lora', sans-serif;
+    line-height: 3rem;
+}
+
+.longName {
+    line-height: 2rem !important;
+    margin-bottom: 0.4rem;
+}
+
+.bookInfo {
+    font-size: 0.875rem;
+    font-weight: 200;
+    line-height: 1.2rem;
+}
+
+.bookInfo h4 {
+    font-weight: 600;
+}
+
+.bookInfo strong {
+    font-weight: 500;
+}
+
+.bookInfo a {
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.bookInfo a:hover {
+    font-weight: 400;
+}

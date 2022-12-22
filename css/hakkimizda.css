@@ -1,0 +1,50 @@
+.about {
+    margin: 5rem;
+}
+
+.aboutTitle {
+    font-family: 'Lora', sans-serif;
+}
+
+h1 {
+    font-family: 'Lora', sans-serif;
+}
+
+.about p {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-weight: 100;
+}
+
+.staffInfo p {
+    margin: 0 !important;
+}
+
+.staffCard {
+    margin-top: 1rem;
+    width: 240px;
+    height: 80px;
+    background-color: #e9e9e9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.staffImage {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+}
+
+.staffInfo {
+    padding-top: 1.25rem;
+    float: right;
+    padding-right: 2rem;
+    margin: 0 !important;
+}
+
+.staffInfo h4 {
+    font-weight: 500;
+}

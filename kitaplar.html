@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kitaplar / Kitapgezegenim</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/kitaplar.css">
+        <script src="https://kit.fontawesome.com/4b9bfad6c9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <a class="textLogo" href="index.html">kitap<strong>gezegenim</strong></a>
+                <div class="headerContainer">
+                    <div class="searchBox">
+                        <input class="search-input" type="text" placeholder="Kitap veya yazar ara...">
+                        <button class="submit-button" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                    <a class="randomBookBtn" href="#">Ne Okusam?</a>
+                </div>
+            </div>
+            <div class="navBar">
+                <ul>
+                    <li><a href="index.html">ana sayfa</a></li>
+                    <li><a href="hakkimizda.html">hakkımızda</a></li>
+                    <li><a class="active" href="kitaplar.html">kitaplar</a></li>
+                    <li><a href="iletisim.html">iletişim</a></li>
+                </ul>
+            </div>
+            <hr>
+        </header>
+        <div class="categories">
+            <div class="categoriesMenu">
+                <h3 class="cTitle">Kategoriler</h3>
+                <hr class="cr">
+                <ul>
+                    <li><a class="on" href="#"><i class="fas fa-border-all"></i> Tüm Kitaplar</a></li>
+                    <li><a href="#"><i class="fas fa-fire"></i> Popüler</a></li>
+                    <hr class="cr">
+                    <li><a href="#"><i class="fas fa-feather-alt"></i> Tarih</a></li>
+                    <li><a href="#"><i class="fas fa-book-open"></i> Edebiyat</a></li>
+                    <li><a href="#"><i class="fas fa-lightbulb"></i> Felsefe</a></li>
+                    <li><a href="#"><i class="fas fa-rocket"></i> Bilim Kurgu</a></li>
+                    <li><a href="#"><i class="fas fa-book-reader"></i> Hikaye</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i> Roman</a></li>
+                </ul>
+            </div>
+            <hr class="vr">
+            <div class="contentHeader">
+                <p class="way">Kitaplar</p>
+                <h1 class="title">Tüm Kitaplar</h1>
+                <div class="values">
+                    <p class="listNumber">10 kitap listelenmektedir.</p>
+                    <select name="listing" class="listing">
+                        <option value="default">Varsayılan</option>
+                        <option value="popular">Popüler</option>
+                        <option value="most">Çok İncelenen</option>
+                    </select>
+                </div>
+                <hr class="cr">
+                <div class="bookCategory">
+                    <div class="bookColumn">
+                        <div class="bookCard">
+                            <div class="bookCover bg1">
+                                <img src="/img/suc-ve-ceza-1.jpg">
+                            </div>
+                            <div class="bookInfo">
+                                <h3 class="bookTitle">Suç ve Ceza</h3>
+                                <p class="bookAuthor">Fyodor Dostoyevski</p>
+                                <a class="bookTypeButton type1" href="#">Roman</a>
+                                <a class="reviewButton" href="kitaplar/suc-ve-ceza.html">İncele</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bookColumn">
+                        <div class="bookCard">
+                            <div class="bookCover bg2">
+                                <img src="/img/satranc-1.jpg">
+                            </div>
+                            <div class="bookInfo">
+                                <h3 class="bookTitle">Satranç</h3>
+                                <p class="bookAuthor">Stefan Zweig</p>
+                                <a class="bookTypeButton type2" href="#">Hikâye</a>
+                                <a class="reviewButton" href="kitaplar/satranc.html">İncele</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bookColumn">
+                        <div class="bookCard">
+                            <div class="bookCover bg3">
+                                <img src="/img/kurk-mantolu-madonna-1.jpg">
+                            </div>
+                            <div class="bookInfo">
+                                <h3 class="bookTitle longTitle">Kürk Mantolu Madonna</h3>
+                                <p class="bookAuthor">Sabahattin Ali</p>
+                                <a class="bookTypeButton type1" href="#">Roman</a>
+                                <a class="reviewButton" href="kitaplar/kurk-mantolu-madonna.html">İncele</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bookColumn">
+                        <div class="bookCard">
+                            <div class="bookCover bg3">
+                                <img src="/img/satranc-1.jpg">
+                            </div>
+                            <div class="bookInfo">
+                                <h3 class="bookTitle longTitle">Kürk Mantolu Madonna</h3>
+                                <p class="bookAuthor">Sabahattin Ali</p>
+                                <a class="bookTypeButton type1" href="#">Roman</a>
+                                <a class="reviewButton" href="kitaplar/kurk-mantolu-madonna.html">İncele</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bookColumn">
+                        <div class="bookCard">..</div>
+                    </div>
+                    <div class="bookColumn">
+                        <div class="bookCard">..</div>
+                    </div>
+                    <div class="bookColumn">
+                        <div class="bookCard">..</div>
+                    </div>
+                </div>
+<!--                 <div class="cardLine1">
+                    <div class="card1">
+
+                    </div>
+                    <div class="card2">
+
+                    </div>
+                    <div class="card3">
+
+                    </div>
+                    <div class="card4">
+
+                    </div>
+                </div>
+                <div class="cardLine2">
+                    <div class="card5">
+
+                    </div>
+                    <div class="card6">
+
+                    </div>
+                    <div class="card7">
+
+                    </div>
+                    <div class="card7">
+
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <footer>
+            <hr>
+            <div class="topFooter">
+
+                <div class="logoContainer">            
+                    <a class="textLogo" href="index.html">kitap<strong>gezegenim</strong></a>
+                    <p class="slogan">Aradığın kitapları kolayca bul!</p>
+                </div>
+
+                <div class="navigationContainer">
+                    <ul>
+                        <h3>Hızlı Linkler</h3>
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">Kitaplar</a></li>
+                        <li><a href="#">İletişim</a></li>
+                    </ul>
+                    <ul>
+                        <h3>Kategoriler</h3>
+                        <li><a href="#">Popülerler</a></li>
+                        <li><a href="#">Edebiyat Kitapları</a></li>
+                        <li><a href="#">Tarih Kitapları</a></li>
+                    </ul>
+                </div>
+
+                <div class="notifyMeContainer">
+                    <h3>Güncel Kal!</h3>
+                    <div class="mailMeBox">
+                        <input class="mailMeInput" type="email" placeholder="E-mail adresiniz...">
+                        <button class="mailMeButton" type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="altFooter">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+                <p>Kitap Gezegenim © 2022 | Tüm hakları saklıdır.</p>
+            </div>
+        </footer>
+    </body>
+</html>
